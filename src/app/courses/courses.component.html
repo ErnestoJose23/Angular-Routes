@@ -1,5 +1,4 @@
-<h3>{{course.name | uppercase}}</h3>
-<div><span>id: {{ course.id }}</span></div>
-<div><label>name:
-        <input [(ngModel)]="course.name" />
-    </label></div>
+<h3>Los cursos que hay</h3>
+<ul class="courses">
+    <li><span class="badge">{{course.id }}</span> {{course.name}}</li>
+</ul>
